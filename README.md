@@ -16,7 +16,7 @@ ESX-AdvancedFishing is a fishing system designed for FiveM servers, now compatib
 
 2. Add `start esx-advancedfishing` to your `server.cfg`.
 
-3. Ensure all dependencies (New QBCore, QB-Input, and QB Menu) are properly installed and configured.
+3. Ensure all dependencies (New QBCore, QB-Input, PS-UI and QB Menu) are properly installed and configured.
 
 ## Usage
 
