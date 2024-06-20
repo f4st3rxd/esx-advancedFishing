@@ -6,7 +6,6 @@ ESX-AdvancedFishing is a fishing system designed for FiveM servers, now compatib
 
 - **Market NPC:** Visit the market NPC to purchase fishing equipment.
 - **Fish Sales NPC:** Sell your caught fish to the designated NPC.
-- **Special Sales System:** Unique sales system for sharks and turtles.
 - **Dependencies:** Requires New QBCore with support for Ox Inventory and QBCore Inventory.
 - **Additional Requirements:** QB-Input, PS-UI and QB Menu are necessary for full functionality.
 
