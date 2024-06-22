@@ -197,7 +197,7 @@ AddEventHandler("f4st-fish:sell", function(miktar)
 		TriggerClientEvent("QBCore:Notify", src, "Üstünüzde yeterli balık yok!", "error", 3000)
 	else 
 		local PlayerItem = Player.Functions.GetItemByName("fish")
-		if PlayerItem.amount > miktar then 
+		if PlayerItem.amount >= miktar then 
 			Player.Functions.RemoveItem("fish", miktar)
 			Player.Functions.AddMoney("cash", miktar * FastConfig.BalikFiyat, "Balık satış") 
 			TriggerClientEvent("QBCore:Notify", src, "Başarıyla " .. miktar .. "x balık sattınız $" .. miktar * FastConfig.BalikFiyat .. " elde ettiniz", "success", 3000)
