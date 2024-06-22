@@ -188,8 +188,8 @@ AddEventHandler("f4st-f4st:islem", function(typee, miktar)
 	end	
 end)
 
-RegisterServerEvent("f4st-f4st:sell")
-AddEventHandler("f4st-f4st:sell", function(miktar)
+RegisterServerEvent("f4st-fish:sell")
+AddEventHandler("f4st-fish:sell", function(miktar)
 	local src = source 
 	local Player = QBCore.Functions.GetPlayer(src)
 
